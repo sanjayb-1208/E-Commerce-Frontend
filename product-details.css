@@ -1,0 +1,96 @@
+.full-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 1000px;
+    border: 1px solid rgb(113, 104, 104);
+    box-shadow: 0px 0px 3px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.center-container {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px;
+}
+
+.product-details, .product-rating-details {
+    flex: 1;
+    min-width: 300px;
+}
+
+.product-name {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.product-brand {
+    color: rgb(26, 85, 87);
+    margin-bottom: 15px;
+}
+
+.product-price-details {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid rgb(96, 109, 246);
+}
+
+.product-price {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+}
+
+.product-discount-percent {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.product-rating-heading, .product-price-details-heading {
+    color: rgb(26, 85, 87);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Button Styling matching your Home Page */
+.buy-button, .add-to-cart-button {
+    width: 100%;
+    max-width: 250px;
+    height: 45px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px;
+    font-weight: bold;
+    display: block;
+}
+
+.buy-button {
+    background: linear-gradient(rgb(26, 85, 87), rgb(96, 109, 246));
+    color: white;
+}
+
+.free-shipping-text {
+    font-size: 12px;
+    color: #555;
+    margin-top: 5px;
+}
